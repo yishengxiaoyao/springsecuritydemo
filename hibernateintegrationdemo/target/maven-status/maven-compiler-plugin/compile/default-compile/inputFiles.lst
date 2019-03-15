@@ -1,0 +1,16 @@
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/configuration/SecurityConfiguration.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/model/User.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/service/CustomUserDetailsService.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/dao/UserDaoImpl.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/controller/HelloWorldController.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/model/UserProfile.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/dao/UserDao.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/configuration/HelloWorldConfiguration.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/service/UserService.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/configuration/SpringMvcInitializer.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/configuration/SecurityWebApplicationInitializer.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/service/UserServiceImpl.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/dao/AbstractDao.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/configuration/HibernateConfiguration.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/model/State.java
+/Users/renren/IdeaProjects/springsecuritydemo/hibernateintegrationdemo/src/main/java/com/edu/springsecurity/hibernateintegration/model/UserProfileType.java

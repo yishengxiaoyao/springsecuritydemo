@@ -1,0 +1,5 @@
+com/edu/springsecurity/customlogin/configuration/SecurityConfiguration.class
+com/edu/springsecurity/customlogin/controller/HelloWorldController.class
+com/edu/springsecurity/customlogin/configuration/SecurityWebApplicationInitializer.class
+com/edu/springsecurity/customlogin/configuration/SpringMvcInitializer.class
+com/edu/springsecurity/customlogin/configuration/HelloWorldConfiguration.class

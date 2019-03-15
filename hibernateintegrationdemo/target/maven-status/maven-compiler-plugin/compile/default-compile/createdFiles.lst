@@ -1,0 +1,16 @@
+com/edu/springsecurity/hibernateintegration/model/UserProfileType.class
+com/edu/springsecurity/hibernateintegration/model/UserProfile.class
+com/edu/springsecurity/hibernateintegration/configuration/HelloWorldConfiguration.class
+com/edu/springsecurity/hibernateintegration/configuration/HibernateConfiguration.class
+com/edu/springsecurity/hibernateintegration/dao/UserDaoImpl.class
+com/edu/springsecurity/hibernateintegration/model/State.class
+com/edu/springsecurity/hibernateintegration/service/CustomUserDetailsService.class
+com/edu/springsecurity/hibernateintegration/configuration/SecurityConfiguration.class
+com/edu/springsecurity/hibernateintegration/dao/UserDao.class
+com/edu/springsecurity/hibernateintegration/dao/AbstractDao.class
+com/edu/springsecurity/hibernateintegration/model/User.class
+com/edu/springsecurity/hibernateintegration/configuration/SecurityWebApplicationInitializer.class
+com/edu/springsecurity/hibernateintegration/configuration/SpringMvcInitializer.class
+com/edu/springsecurity/hibernateintegration/controller/HelloWorldController.class
+com/edu/springsecurity/hibernateintegration/service/UserServiceImpl.class
+com/edu/springsecurity/hibernateintegration/service/UserService.class

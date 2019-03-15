@@ -1,0 +1,31 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+    http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-4.2.xsd">
+
+    <http auto-config="true" >
+        <!--拦截相应的url，判断是否有权限-->
+        <intercept-url pattern="/" access="permitAll" />
+        <intercept-url pattern="/home" access="permitAll" />
+        <intercept-url pattern="/admin**" access="hasRole('ADMIN')" />
+        <intercept-url pattern="/dba**" access="hasRole('ADMIN') and hasRole('DBA')" />
+        <!--跳转到自定义的登陆页面-->
+        <form-login  login-page="/login" username-parameter="username" password-parameter="password" authentication-failure-url="/Access_Denied" />
+        <!--
+            logout-success-url:指定退出成功之后的url,默认为/?logout
+            success-handler-ref:处理退出成功之后，最的处理
+            logout-url:指定要触发退出操作,如果没有默认为/logout
+        -->
+        <logout logout-url="" success-handler-ref="" invalidate-session="true"></logout>
+        <csrf/>
+    </http>
+
+    <authentication-manager>
+        <authentication-provider user-service-ref="customUserDetailsService"></authentication-provider>
+    </authentication-manager>
+
+    <beans:bean id="customUserDetailsService" class="com.edu.springsecurity.hibernateintegration.service.CustomUserDetailsService"></beans:bean>
+
+
+</beans:beans>
